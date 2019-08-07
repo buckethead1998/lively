@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--END-->
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Tomislav Vrbicic</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand text-monospace font-weight-bold" href="#">Tomislav Vrbicic</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li
+          <li class="nav-item">
+            <a class="nav-link" href="#">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Others</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Experience</a>
+              <a class="dropdown-item" href="#">Languages</a>
+              <a class="dropdown-item" href="#">Hobbies</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container mb-5" style="padding-bottom:40px;">
+      <h3 class="display-5 mt-5 bg-warning pl-4 p-2 ">1. Introduction to HTML</h1>
+        <h4 class="display-5 bg-primary pl-4 mb-3">1.1. Struture Text</h4>
+        <p class="lead ml-4">
+          <span class="bg-secondary text-light">Horizontal line</span>
+          The < hr > element is used to separate content (or define a change) in an HTML page.<br/>
+          The < hr > tag is an empty tag which means that it has no end tag.
+        </p>
+        <p class="lead ml-4">
+          <span class="bg-secondary text-light">Line Break</span>
+          The < br > tag inserts a single line break.<br/>
+          The < br > tag is an empty tag which means that it has no end tag.
+        </p>
+        <p class="lead ml-4">
+        <span class="bg-secondary text-light">Headings</span>
+        Headings are defined with the < h1 > to < h6 > tags.<br/>
+        <p class="ml-4 text-danger">
+        < h1 ><span class="text-dark font-weight-bold">Heading 1</span>< /h1 >
+        <h1 class="ml-4">Heading 1</h1><br/>
+        </p>
+        <hr>
+        <p class="ml-4 text-danger">
+        < h2 ><span class="text-dark font-weight-bold">Heading 2</span>< /h2 >
+        <h2 class="ml-4">Heading 2</h2><br/>
+        </p>
+        <hr>
+        <p class="ml-4 text-danger">
+        < h3 ><span class="text-dark font-weight-bold">Heading 3</span>< /h3 >
+        <h3 class="ml-4">Heading 3</h3><br/>
+        </p>
+        <hr>
+        <p class="ml-4 text-danger">
+        < h4 ><span class="text-dark font-weight-bold">Heading 4</span>< /h4 >
+        <h4 class="ml-4">Heading 4</h4><br/>
+        </p>
+        <hr>
+        <p class="ml-4 text-danger">
+        < h5 ><span class="text-dark font-weight-bold">Heading 5</span>< /h5 >
+        <h5 class="ml-4">Heading 5</h5><br/>
+        </p>
+        <hr>
+        <p class="ml-4 text-danger">
+        < h6 ><span class="text-dark font-weight-bold">Heading 6</span>< /h6 >
+        <h6 class="ml-4">Heading 6</h6><br/>
+        </p>
+        </p>
+        <p class="lead ml-4">
+        <span class="bg-secondary text-light">Emphasized text</span>
+        The < em > tag is a phrase tag. It renders as emphasized text.
+        </p>
+        <h4 class="display-5 bg-primary pl-4 mt-5 mb-3">1.2. HTML Lists</h4>
+        <p class="lead ml-4">
+          <span class="bg-secondary text-light">Ordered List</span>
+          The < ol > tag defines an ordered list. An ordered list can be numerical or alphabetical.<br/>
+          <p class="text-danger ml-4">< ol ><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 1</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 2</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 3</span>< li ></span><br/>
+          < /ol >
+          </p><br/>
+          <span class="ml-4 font-weight-bold">Result:</span>
+          <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          </p>
+          <hr>
+          <p class="text-danger ml-4"><span class="bg-success text-light">< ol type="A"></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 1</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 2</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 3</span>< li ></span><br/>
+          < /ol >
+          </p><br/>
+          <span class="ml-4 font-weight-bold">Result:</span>
+          <ol type="A">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          </p>
+          <hr>
+          <p class="text-danger ml-4"><span class="bg-success text-light">< ol type="a"></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 1</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 2</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 3</span>< li ></span><br/>
+          < /ol >
+          </p><br/>
+          <span class="ml-4 font-weight-bold">Result:</span>
+          <ol type="a">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          </p>
+          <hr>
+          <p class="text-danger ml-4"><span class="bg-success text-light">< ol type="I"></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 1</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 2</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 3</span>< li ></span><br/>
+          < /ol >
+          </p><br/>
+          <span class="ml-4 font-weight-bold">Result:</span>
+          <ol type="I">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          </p>
+          <hr>
+          <p class="text-danger ml-4"><span class="bg-success text-light">< ol type="i"></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 1</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 2</span>< li ></span><br/>
+            <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 3</span>< li ></span><br/>
+          < /ol >
+          </p><br/>
+          <span class="ml-4 font-weight-bold">Result:</span>
+          <ol type="i">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          </p>
+          <hr>
+          <hr>
+          <p class="lead ml-4">
+            <span class="bg-secondary text-light">Unordered List</span>
+            The < ul > tag defines an unordered list. An unordered list can be in a shape of circle, square, disc or none.<br/>
+            <p class="text-danger ml-4"><span class="bg-success text-light">< ul style="list-style-type:disc"></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 1</span>< li ></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 2</span>< li ></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 3</span>< li ></span><br/>
+            < /ul >
+            </p><br/>
+            <span class="ml-4 font-weight-bold">Result:</span>
+            <ul style="list-style-type:disc">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+
+            <hr>
+            <!---->
+            <p class="text-danger ml-4"><span class="bg-success text-light">< ul style="list-style-type:circle"></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 1</span>< li ></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 2</span>< li ></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 3</span>< li ></span><br/>
+            < /ul >
+            </p><br/>
+            <span class="ml-4 font-weight-bold">Result:</span>
+            <ul style="list-style-type:circle">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+
+            <hr>
+            <p class="text-danger ml-4"><span class="bg-success text-light">< ul style="list-style-type:square"></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 1</span>< li ></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 2</span>< li ></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 3</span>< li ></span><br/>
+            < /ul >
+            </p><br/>
+            <span class="ml-4 font-weight-bold">Result:</span>
+            <ul style="list-style-type:square">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+
+            <hr>
+            <p class="text-danger ml-4"><span class="bg-success text-light">< ul style="list-style-type:none"></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 1</span>< li ></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 2</span>< li ></span><br/>
+              <span class="ml-2">< li ><span class="text-dark font-weight-bold">Item 3</span>< li ></span><br/>
+            < /ul >
+            </p><br/>
+            <span class="ml-4 font-weight-bold">Result:</span>
+            <ul style="list-style-type:none">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+            </p>
+            <h4 class="display-5 bg-primary pl-4 mt-5 mb-3">1.3. Image Element</h4>
+            <p class="lead ml-4">
+              <span class="bg-secondary text-light">Image Element</span><br/>
+              The < img > tag defines an image in an HTML page.<br/>
+              The < img > tag has two required attributes: <span class="font-weight-bold">src</span> and <span class="font-weight-bold">alt</span>.<br />
+              <p class="ml-4">
+              <span class="text-danger">< img src="https://cdn.vox-cdn.com/thumbor/8tLchaDMIEDNzUD3mYQ7v1ZQL84=/0x0:2012x1341/920x613
+                /filters:focal(0x0:2012x1341)
+                :format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="GoogleLogo"></span>
+              </p>
+              <span class="ml-4 font-weight-bold">Result:</span><br/>
+              <span class="ml-3"><img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="GoogleLogo" height="80px;" width="110px;"/>
+              </span>
+              </p>
+              <h4 class="display-5 bg-primary pl-4 mb-3">1.4. Anchor Tag Download Attribute</h4>
+              <p class="lead ml-4">
+                <span class="bg-secondary text-light">Hyperlink</span><br/>
+                The < a > tag defines a hyperlink, which is used to link from one page to another.<br/>
+                The most important attribute of the < a > element is the href attribute, which indicates the link's destination.
+                <p class="ml-4">
+                  < a href="#">Hyperlink< /a>
+                </p>
+                <span class="ml-4 font-weight-bold">Result:</span><br/>
+                <span class="ml-4"><a href="#">Hyperlink</a></span><br /><br/>
+                <div class="border border-danger">
+                <span class="ml-4 font-weight-bold">Additional:</span><br/>
+                <span class="ml-4">Download Attribute</span><br />
+                <span class="ml-4">< a download="#" href="#">< /a></span><br /><br />
+                <span class="ml-4 font-weight-bold">Result:</span><br/>
+                <span class="ml-4"><a download="https://sherlock-holm.es/stories/pdf/a4/1-sided/advs.pdfhref=" href="https://sherlock-holm.es/stories/pdf/a4/1-sided/advs.pdf">Download link</a></span><br/><br/>
+                <hr>
+                <span class="ml-4">New window or tab</span><br />
+                <span class="ml-4">< a href="#" target="_blank">< /a></span><br /><br />
+                <span class="ml-4 font-weight-bold">Result:</span><br/>
+                <span class="ml-4"><a class="mb-2" href="#" target="_blank">Open hyperlink in new window or tab</a></span>
+
+              </div>
+              </p>
+                  <h3 class="display-5 mt-5 bg-warning pl-4 p-2 ">2. Intermediate HTML</h3>
+              <h4 class="display-5 bg-primary pl-4 mb-3">1.1. HTML Tables</h4>
+              <p class="lead ml-4">
+                <span class="bg-secondary text-light">Table tag</span>
+                The < table > tag defines an HTML table.<br/>
+                An HTML table consists of the < table > element and one or more < tr >, < th >, and < td > elements.
+              </p><br />
+              <div class="ml-3 text-danger">
+              < table border="3" bgcolor="red" cellpadding="8" cellspacing="5" width="30%" ><br/>
+                < thead ><br/>
+                 < tr ><br/>
+                  < th ><span class="text-dark font-weight-bold">Tomislav</span> < /th ><br/>
+                  < th ><span class="text-dark font-weight-bold">Mladen</span> < /th ><br/>
+                 < /tr ><br/>
+                < /thead ><br/>
+                < tbody ><br/>
+                 < tr ><br/>
+                   < td ><span class="text-dark font-weight-bold">1998</span>< /td ><br/>
+                   < td ><span class="text-dark font-weight-bold">1995</span>< /td ><br/>
+                 < /tr ><br/>
+                < /tbody ><br/>
+                < tfoot ><br/>
+                < tr ><br/>
+                  < td ><span class="text-dark font-weight-bold">Elektricar</span>< /td ><br/>
+                  < td ><span class="text-dark font-weight-bold">Varioc</span>< /td ><br/>
+                < /tr ><br/>
+                < /tfoot ><br/>
+              < /table ><br/><br/>
+             </div>
+             <span class="ml-4 font-weight-bold">Result:</span><br/><br/>
+             <div class="ml-3">
+             <table border="3" bgcolor="red" cellpadding="8" cellspacing="5" width="30%">
+               <thead>
+                <tr>
+                 <th><span class="text-dark font-weight-bold">Tomislav</span> </th>
+                 <th><span class="text-dark font-weight-bold">Mladen</span> </th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                  <td><span class="text-dark font-weight-bold">1998</span></td>
+                  <td><span class="text-dark font-weight-bold">1995</span></td>
+                </tr>
+               </tbody>
+               <tfoot>
+               <tr>
+                 <td><span class="text-dark font-weight-bold">Elektricar</span></td>
+                 <td><span class="text-dark font-weight-bold">Varioc</span></td>
+               </tr>
+               </tfoot>
+             </table>
+             </div><br/>
+             <h4 class="display-5 bg-primary pl-4 mb-3">1.2. HTML Forms</h4>
+             <p class="lead ml-4">
+               <span class="bg-secondary text-light">Form tag</span>
+               The < form > tag is used to create an HTML form for user input.<br/>
+               The < form > element can contain one or more of the following form elements:<br />
+               <ul>
+                 <li>< input ></li>
+                 <li>< textarea ></li>
+                 <li>< button ></li>
+                 <li>< select ></li>
+                 <li>< option ></li>
+                 <li>< optgroup ></li>
+                 <li>< fieldset ></li>
+                 <li>< label ></li>
+                 <li>< output ></li>
+                 </ul>
+             </p><br />
+             <div class="ml-3">
+               <p class="text-danger">
+                 < form action ="mailto:tomislavvrbicic@gmail.com" method ="get(or post)" enctype="text/plain" > <br />
+                 < label >Your Name:< /label ><br />
+                 < input type ="text" name="yourName" value=""><br />
+                 < label >Your Email:< /label ><br />
+                 < input type ="email" name="yourEmail" value=""><br />
+                  < label >Your Message:< /label ><br />
+                  < textarea name="yourMessage" rows="8" cols="80" placeholder="Write a Message Here..." >< /textarea ><br />
+                  < input type="submit" name=""><br />
+                  < /form >
+                 </p>
+             </div><br/>
+             <span class="ml-4 font-weight-bold">Result:</span><br/>
+             <div class="ml-3">
+               <p class="text-danger">
+                 <form action ="mailto:tomislavvrbicic@gmail.com" method ="get(or post)" enctype="text/plain"><br />
+                 <label >Your Name:</label><br />
+                 <input type ="text" name="yourName" value=""><br />
+                 <label >Your Email:</label><br />
+                 <input type ="email" name="yourEmail" value=""><br />
+                  <label >Your Message:</label><br />
+                  <textarea name="yourMessage" rows="8" cols="80" placeholder="Write a Message Here..." ></textarea><br />
+                  <input type="submit" name=""><br />
+                  </form >
+                 </p>
+             </div>
+                  
+      </div>
+      <div class="fixed-bottom">
+       <div class="text-light bottom-fixed bg-dark pt-3 pb-3">
+         <center>
+        <p class="mt-2">© 2019 All Rights Reserved by <a href="mailto:tomislavvrbicic@gmail.com">Tomislav Vrbicic</a></p>
+         </center>
+       </div>
+       </div>
+        </body>
+        </html>
